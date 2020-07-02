@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lily Script One';font-size: 22px;
+
+}
+h1{
+    color:white;
+    -webkit-text-stroke:1px #3CB371;
+
+
+    
+} 
+#fullpage section h1{
+    padding:0;
+    margin:0;
+    text-align: center;
+    /* line-height: 100vh; */
+}
+#fullpage{
+    height:100vh;
+}
+#fullpage section{
+    height: 100%;
+}
+#fullpage section:nth-child(1){
+    background-image: url('./images/bg1.JPG');
+    /* height: 100vh; */
+    /* line-height: 100vh; */
+    background-size: cover;
+    text-align: center;
+}
+#fullpage section:nth-child(2){
+    background-image: url('./images/2.JPG');
+    height: 100vh;
+    position :relative;
+    background-size: cover;
+    text-align: center;
+}
+#fullpage section:nth-child(3){
+    background-image: url('./images/4.JPG');
+    /* height: 100vh; */
+    background-size: cover;
+    /* text-align: center; */
+}
+#fullpage section:nth-child(4){
+    background-image: url('./images/3.JPG');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+.intro{
+    color:whitesmoke;
+    position: absolute;
+    top:30%;
+    left:5%;
+    translate: (-50%,-50%);
+    font-size: larger;
+}
+.intro h2{
+    color:#3CB371;
+    -webkit-text-stroke:0.5px rgb(244, 250, 244);
+}
+.para{
+    color:white;
+    -webkit-text-stroke:0.8px #3CB371;
+}
+span:before{
+    content:" ";
+    animation: animate infinite 10s;
+}
+.header-text{
+    color:white;
+    -webkit-text-stroke:1px rgb(247, 95, 95);
+}
+.team-area{
+    padding:60px 0;
+            }
+.section-heading{
+    text-align:center;
+    /* color:#ffff; */
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size:65px;
+
+}
+.card{
+    border:none;
+    box-shadow: 0 4px 8px 0 rgb(252, 38, 38)
+    , 0 6px 20px 0 rgb(252, 38, 38);
+}
+.img-area{
+    width:100px;
+    height:150px;
+    display:inline-block;
+    overflow: hidden;
+    /* border-radius: 50%; */
+}
+
+.team-single:hover .side-two{
+    transform:rotateY(0deg);
+    border-radius: 5px;
+}
+.team-single:hover .side-one{
+    transform:rotateY(180deg);
+}
+.content-area{
+    transform:perspective(1000px);
+    transition: 1s;
+    transform-style:preserve-3d;
+    position:relative;
+}
+.side-one{
+    position:relative;
+    z-index:2;
+    margin-bottom: 30px;
+   
+    transform: rotateY(0deg);
+
+}
+.side-two{
+    position: absolute;
+    top:0;
+    left:0;
+    background:transparent;
+    width:100%;
+    transform:rotateY(-90deg);
+}
+
+.side-one,.side-two{
+    backface-visibility:hidden;
+     transition:1s;
+    transform-style: preserve-3d;
+}
+.side-one .card,.side-two .card{
+    min-height:312px;
+    background:transparent;
+
+}
+.side-one .card .mat,.year{
+    color:rgb(247, 189, 189);
+-webkit-text-stroke: 1px rgb(112, 6, 6);
+}
+.grade{
+    color:rgb(252, 38, 38);
+}
+.side-two .card .exp{
+    font-size: 18px;
+    color:rgb(247, 189, 189);
+-webkit-text-stroke: 0.3px rgb(112, 6, 6);
+}
+.skills{
+    /* background-color: #222; */
+    width:100%;
+    height: 100vh;
+    /* padding-top:60%; */
+
+}
+.contbox{
+    width:70%;
+    height:70px;
+    border-radius: 10px;
+    border:3px solid red;
+    margin: 10px auto;
+}
+.skills .name{
+    color:floralwhite;
+
+}
+.bar{
+    box-shadow:0px opx 10px 4px aquamarine;
+    height:4px;
+    margin:2px 0px;
+    
+    border-radius: 2px;
+    background-color: #fff;
+}
+.swiper-container {
+    width: 100%; 
+     padding-top: 50px auto;
+    padding-bottom: 50px;
+    margin-top: 100px;
+  }
+  .swiper-slide {
+    background-position: center; 
+     background-size: cover; 
+     width: 10%;
+    height: 10%; 
+
+  }
+   .details{
+    text-align: center;
+    color: rgb(241, 152, 50);
+  } 
+@keyframes animate{
+    0%{
+        content:"Student"
+    }
+    30%{
+        content:"Web Designer"
+    }
+    60%{
+        content:"Programmer"
+    }
+    90%{
+        content:"Data Analyst"
+    }
+   100%{
+       content:'...'
+   }
+}

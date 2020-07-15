@@ -93,7 +93,30 @@ body{
       background-image: radial-gradient(rgb(250, 235, 235),rgb(157, 199, 4),rgb(151, 248, 151))!important; 
      /* background-color:  rgb(210, 241, 98); */
      border-radius: 100px;
+     color:white;
 
 
+
+}
+.heading{
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+#id{
+    /* background: -webkit-linear-gradient(#eee, rgb(157, 199, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; */
+    color:rgb(157, 199, 4)
+
+}
+.offset{
+    background: -webkit-linear-gradient(#eee, rgb(157, 199, 4));
+    -webkit-background-clip: text;
+    /* -webkit-text-fill-color: transparent; */
+    -webkit-text-fill-color: rgb(157, 199, 4);
 
 }

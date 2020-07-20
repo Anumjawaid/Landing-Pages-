@@ -1,0 +1,10 @@
+.navbar{
+    background-color: aqua;
+    color: blue;
+}
+.navbar-brand{
+    text-align: center !important;
+    position: relative;
+    left: 50%;
+    right:50%;
+}

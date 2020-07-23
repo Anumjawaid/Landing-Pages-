@@ -2,9 +2,13 @@
     background-color: aqua;
     color: blue;
 }
-.navbar-brand{
-    text-align: center !important;
+.nameApp{
+    text-align: center ;
     position: relative;
     left: 50%;
     right:50%;
+}
+.container{
+    text-align: center;
+    margin-top: 10px;
 }

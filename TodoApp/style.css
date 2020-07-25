@@ -1,14 +1,79 @@
+body{
+    background-image: url('styleimage/bg.JPG');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
 .navbar{
-    background-color: aqua;
-    color: blue;
+    background-image:linear-gradient(rgb(142, 81, 207),rgb(83, 194, 204));
+}
+h2{
+    color:whitesmoke;
+    -webkit-text-stroke:1px rgb(142, 81, 207);
+
+}
+button{
+    background-image: linear-gradient(rgb(142, 81, 207),rgb(83, 194, 204));
+    border-radius: 100px !important;
+    color:whitesmoke;
+    display: inline-block;
+
+    /* display: flex; */
+}
+button:hover{
+    background-image: linear-gradient(rgb(83, 194, 204),rgb(142, 81, 207));
+
+}
+a{
+    color: whitesmoke !important;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+
 }
 .nameApp{
     text-align: center ;
     position: relative;
-    left: 50%;
+    left: 48%;
     right:50%;
 }
 .container{
     text-align: center;
+    margin-top: 30px;
+    animation: mymove 5s infinite;
+
+}
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(100, 100, 185);}
+  }
+.dbtn{
+    border-radius: 100px;
+    text-align: right;
+}
+.comp{
     margin-top: 10px;
+    /* background-color:transparent; */
+    border-radius: 100px;
+    border-color:1px 1px 2px 2px violet solid;
+
+}
+ul{
+    /* background-image: linear-gradient(rgb(83, 194, 204),rgb(142, 81, 207)); */
+   
+
+}
+
+ul
+{
+list-style-type: none;
+text-align: center;
+background-image: url('styleimage/unicorn.png');
+padding: 20px;
+}
+
+li
+{
+background-image: url('styleimage/unicorn.png');
+background-repeat: no-repeat;
+/* background-position: 100% .4em; */
 }

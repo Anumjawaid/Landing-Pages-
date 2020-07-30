@@ -1,0 +1,28 @@
+body{
+   background:linear-gradient(-45deg,rgb(8, 54, 8),rgb(37, 94, 37),rgb(74, 136, 74),rgb(45, 146, 45),rgb(44, 90, 44),rgb(76, 212, 76));
+   margin: 0;
+   padding: 0;
+   background-attachment: fixed;
+   background-size: 700% 700%;
+   animation: gradient 7s ease infinite;
+   padding-bottom: 90px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.bg{
+    /* background-image: url('images/bg.JPG'); */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}

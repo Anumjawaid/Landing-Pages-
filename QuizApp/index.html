@@ -12,34 +12,50 @@
 </head>
 
 <body>
-    <!-- <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img id='bulb' src='images/bulb-removebg-preview.png'>
-           </div>
-          <div class="col-md-6">
-              <div class=bg>
-                <h1 class='main'>Quiz App</h1>
-                <h2>Check Your IQ Here</h2>
-                <button id='start'>Start Here</button>
-                <h3>Mind Telling Your Name</h3>
-
-              <div>
-          </div>
-          <div class="col-md-3">
-            <img id='bulb1' src='images/bulb-removebg-preview.png'>
-          </div>
-        </div> -->
-    <!-- </div> -->
+   
 <div class="container">
-    <div class="row"><br><br><br> <br><br><br><br><br></div>
-    <div class="row">
+    <div class="row s1">
         <div class="col-md-4"><img id='bulb' src='images/bulb-removebg-preview.png'></div>
         <div class="col-md-4"><h1 class='main'>Quiz App <br></h1>
             <h2 class='slog'>Check Your IQ Here</h2>
-            <button id='start'>Start Here</button>
-            <h3>Mind Telling Your Name</h3>
+          
+<!-- start intro -->
+<div id="intro">
+            <button id='start' onclick="nameshow()">Start Here</button>
+            <!-- start name -->
+            <div id='name'>
+              <form>
+            <label  class="label control-label">Mind Telling Your Name</label>
+            <input type="text" class=form-control name=user placeholder="Name In Here" required>
+            <!-- start selectedbox -->
+            <div id="cont">
+              <label class="label control-label">Please Select Number Of Questions</label>
+              <select class="dp" >
+                <option>5</option>
+                <option>10</option>
+
+              </select>
+              <!-- end selected -->
+            </div>
+            <button id='start1'type=submit onclick="contshow()">Enter</button>
+</form>
+
+<!-- end name -->
         </div>
+        <!-- end intro -->
+    </div>
+    <!-- start  2nd intro -->
+        <div id ='secmain'>
+          <p >You will Be Aloted 2 mins for Each Question
+          <br><br>
+          Each Questions Carry 5 Marks  
+          <br><br>
+          Good Luck !!</p>
+          <button id='start3' onclick="Start()">Let The Game Begin</button>
+        </div>
+        <!-- end main col -->
+    </div>
+
         <div class="col-md-4"><img id='bulb1' src='images/bulb-removebg-preview.png'></div>
 
     </div>

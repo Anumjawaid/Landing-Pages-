@@ -8,7 +8,7 @@ body{
    animation: gradient 7s ease infinite;
    padding-bottom: 90px;
    color:rgb(220,220,220);
-   -webkit-text-stroke: grey 0.1px;
+   /* -webkit-text-stroke: grey 0.1px; */
 }
 
 .bg{
@@ -31,12 +31,92 @@ h1{
     height:50%; */
    animation: move 2s ease infinite;
    text-align: center;
+   display:block;
    padding: 15px;
    margin-top: 30px;
    margin-left: 130px;
    border: 2px solid;
    color:2px rgb(37, 94, 37);
 }
+#start1{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    -webkit-text-stroke: grey 0px;
+     color:rgb(37, 94, 37);
+     background-image: linear-gradient(-45deg,rgb(61, 187, 88),whitesmoke,rgb(89, 238, 121));
+     font-size: larger;
+     width:30%;
+    animation: move 2s ease infinite;
+    text-align: center;
+    display:block;
+    margin-left: 130px;
+    border: 2px solid;
+    color:2px rgb(37, 94, 37);
+}
+#start3{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 100px;
+    -webkit-text-stroke: grey 0px;
+     color:rgb(37, 94, 37);
+     background-image: linear-gradient(-45deg,rgb(61, 187, 88),whitesmoke,rgb(89, 238, 121));
+     font-size: larger;
+     /* width:30%; */
+    animation: move 2s ease infinite;
+    text-align: center;
+    display:block;
+    margin-left: 100px;
+    border: 2px solid;
+    color:2px rgb(37, 94, 37);
+}
+.s1{
+    transform: translate(50px,80px);
+}
+#name{
+    display:none;
+    text-align: center;
+    /* translate: transform(50px,70px); */
+}
+.label{
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.form-control{
+    text-align: center;
+    background: transparent;
+    color: red;
+    font-size: 22px;
+    border: 0px;
+    border-bottom: 1px solid whitesmoke;
+}
+/* dropdown customization */
+#cont{
+    display:none;
+}
+  .dp{
+      background: transparent;
+      width:200px;
+      color:green;
+      -webkit-text-stroke: whitesmoke 1px;
+      text-align: center;
+      margin-left: 20px;
+  }
+  /* second intro main */
+  #secmain{
+      display:none;
+  }
+  p{
+      text-align: center;
+      font-size:  large;
+      font-weight: bold;
+    }
+ 
 @keyframes move{
     to{
         background-image: linear-gradient(-45deg,rgb(61, 187, 88),whitesmoke,rgb(89, 238, 121));
@@ -48,6 +128,7 @@ h1{
     }
 }
 #start:hover{
+    margin-top:50px;
     background-image: linear-gradient(45deg,rgb(61, 187, 88),whitesmoke,rgb(89, 238, 121));
     transform:scale(2,2);
 

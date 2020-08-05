@@ -3,14 +3,16 @@ function nameshow(){
     document.getElementById("name").style.display='inline'
 
 }
-function contshow(){
-    document.getElementById("cont").style.display='inline'
-    // if(document.getElementById("cont").style.display==='inline')
-    // {
-    // document.getElementById("secmain").style.display="inline"
-    // }
-    // else{
-    // document.getElementById("cont").style.display='inline'
+// function contshow(){
+//     document.getElementById("start1").style.display='none'
 
-    // }
+//     document.getElementById("cont").style.display='inline'
+//     document.getElementById("start2").style.display='inline'
+
+    
+// }
+function parashow(){
+    document.getElementById('secmain').style.display="inline"
+    document.getElementById('intro').style.display='none'
+
 }

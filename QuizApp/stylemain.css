@@ -1,0 +1,22 @@
+.main1{
+    text-align: center;
+    /* margin-left: 100px; */
+    transform: translate(500px,0px);
+}
+.mm{
+    box-shadow: 2px 2px 4px 4px rgb(179, 255, 0) ;
+    
+}
+.ms,.ms1{
+    animation: rotate 1s infinite;
+    /* transform: rotate(02deg); */
+
+}
+@keyframes rotate{
+    from{
+        transform: rotate(02deg);
+    }
+    to{
+        transform: rotate(-40deg);
+    }
+}

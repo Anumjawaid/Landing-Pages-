@@ -7,7 +7,7 @@
 }
 .stmain{
     display: inline-block;
-    margin-right: 700px;
+    margin-right: 600px;
 }
 .line{
     background-color: blueviolet;
@@ -31,7 +31,7 @@
 
 }
 .main{
-    display:none;
+    /* display:none; */
 }
 .projtable{
     width:100%;
@@ -62,28 +62,34 @@ th{
     margin-left: 450px;
     margin-right: 450px;
     margin-bottom:30px;
+    animation:mymove 5s linear infinite;
+    display:none;
 }
+@keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(100, 100, 185);}
+  }
 
 .label{
     font-size: 22px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 45px;
     font-weight: bolder;
     text-transform: capitalize;
     text-align: center;
 
 }
-.form-control{
-    text-align: center;
-    background: transparent;
-    color: red;
-    font-size: 22px;
-    border: 0px;
-    border-bottom: 1px solid rgb(168, 6, 6);
+input[type=text]{
+    width:50%;
+    padding: 12px 20px;
+    margin-left: 130px;
+    border: 2px solid rgba(82, 82, 189);
+  border-radius: 4px;
 }
 .addnew{
     margin-top:30px;
     padding:10px;
+    margin-bottom:30px;
+    margin-left:50px;
 }
 @keyframes animate1{
    from{

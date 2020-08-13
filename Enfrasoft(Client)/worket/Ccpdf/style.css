@@ -116,23 +116,37 @@ button,.btn{
     /* background-color: yellow; */
     box-shadow: 2px 2px 4px 4px yellow;
     margin-left: 25px;
+    animation :move4 2s linear infinite ;
+
 }
+@keyframes move4 {
+    50% {box-shadow: 10px 20px 30px yellow;}
+  }
 .inprog{
     /* background-color: skyblue; */
     box-shadow: 2px 2px 4px 4px skyblue;
     margin-left: 25px;
-
+    animation :move3 2s linear infinite;
 }
+@keyframes move3 {
+    50% {box-shadow: 10px 20px 30px skyblue;}
+  }
 .code{
     /* background-color: orange; */
     box-shadow: 2px 2px 4px 4px orange;
     margin-left: 25px;
-
+    animation :move2 2s linear infinite;
 }
+@keyframes move2 {
+    50% {box-shadow: 10px 20px 30px hotpink;}
+  }
+
 .done{
     /* background-color: hotpink; */
     box-shadow: 2px 2px 4px 4px hotpink;
     margin-left: 25px;
+    animation :move2 2s ;
+
 
 }
 .icon{
@@ -163,6 +177,7 @@ button,.btn{
     border-style: double;
     text-align: center;
     text-transform: uppercase;
+    animation :move 2s ;
 }
 .prog{
     background-color: rgb(146, 213, 240);
@@ -171,6 +186,7 @@ button,.btn{
     border-style: double;
     text-align: center;
     text-transform: uppercase;
+
 
 }
 .don{
@@ -181,6 +197,7 @@ button,.btn{
     text-align: center;
     text-transform: uppercase;
 
+
 }
 .portbt{
     background-color: orange;
@@ -188,7 +205,9 @@ button,.btn{
     height: 40%;
     margin-left:40px;
     border-radius: 100px;
+
 }
+
 .upperim{
     display: flex;
     margin-bottom: 10px;

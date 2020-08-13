@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clients Work</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ad9c98e7cb.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <nav class="navbar tit">
+        <i onclick="exp()" class="fas fa-bars solid ham" id='togg'></i>
+        <i onclick="reexp()" class="fas fa-times solid croico" id='cross'></i>
+
+        <a class="navbar-brand">WORKET</a>
+        <form class="form-inline">
+            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <i class="fas fa-plus-circle 7x"></i>
+            <i class="fas fa-search 7x"></i>
+            <i class="fas fa-question-circle 7x"></i>
+            <i class="far fa-user-circle 7x"></i>
+        </form>
+    </nav>
+    <!-- end navbar -->
+    <!-- sidebar -->
+    <div class="wrapper">
+        <div class="sidebar " id='drawer'>
+            <p class="main"><i class=rocket><img src="rocket-removebg-preview.png"></i><b>Teams In Space</b>
+            <h6 class="subheading">Software Project</h6>
+            </p>
+            <!-- <h5>Software Project</h5> -->
+            <ul class='sideli'>
+                <li><a href="backlog.html"><i class="fas fa-book icon"></i>Backlog</a></li>
+                <li><a href="board.html"><i class="fas fa-plane icon"></i>Board</a></li>
+                <li><a href="#"><i class="far fa-chart-bar icon"></i>Reports</a></li>
+                <li><a href="#"><i class="fab fa-intercom icon"></i>Releases</a></li>
+                <li><a href="#"><i class="fas fa-server icon"></i>Components</a></li>
+                <li><a href="#"><i class="fas fa-tasks icon"></i>Issues</a></li>
+                <li><a href="#"><i class="fas fa-bezier-curve icon"></i>Repository</a></li>
+                <li><a href="#"><i class="fas fa-clipboard-list icon"></i>Add Item</a></li>
+                <li><a href="#"><i class="fas fa-cogs icon"></i>Settings</a></li>
+
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h1 class='maincont'>Teams In Space</h1>
+                <button class="btn"><i class="fas fa-search ss"></i></button>
+                <!-- <div class="dropdown"> -->
+                <button class="btn dropdown-toggle shs" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Quick Resources
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <br>
+                </div>
+                <!-- </div> -->
+                <button class="btn">Release</button>
+                <i class="circle"><img src="bb.JPG"></i>
+
+            </div>
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+<script src='script.js'></script>
+</body>
+
+</html>

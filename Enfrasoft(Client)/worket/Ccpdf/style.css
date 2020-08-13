@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    transition:0.5s;
 }
 .ham{
     cursor:pointer;
@@ -37,6 +38,7 @@
     /* transform:translateX(-380px); */
     display:none;
     background-color: rgb(203, 203, 255);
+    transition: 0.5s ease-in-out;
     
 }
 .ham .click ~ .sidebar{
@@ -67,6 +69,8 @@
     margin-right: 150px;
     margin-left:10px;
     margin-bottom: 30px;
+    color:rgb(82, 82, 189);
+    
 }
 .wrapper .sidebar ul li a{
 font-size: 22px;
@@ -136,6 +140,7 @@ button,.btn{
     text-align: center;
     margin-top:10px;
     margin-bottom:29px;
+    transition: 0.5s;
 }
 .portbt{
     background-color: orange;

@@ -113,22 +113,26 @@ button,.btn{
   margin-left: 10px;
 }
 .todo{
-    background-color: yellow;
-    margin-left: 20px;
+    /* background-color: yellow; */
+    box-shadow: 2px 2px 4px 4px yellow;
+    margin-left: 25px;
 }
 .inprog{
-    background-color: skyblue;
-    margin-left: 20px;
+    /* background-color: skyblue; */
+    box-shadow: 2px 2px 4px 4px skyblue;
+    margin-left: 25px;
 
 }
 .code{
-    background-color: orange;
-    margin-left: 20px;
+    /* background-color: orange; */
+    box-shadow: 2px 2px 4px 4px orange;
+    margin-left: 25px;
 
 }
 .done{
-    background-color: hotpink;
-    margin-left: 20px;
+    /* background-color: hotpink; */
+    box-shadow: 2px 2px 4px 4px hotpink;
+    margin-left: 25px;
 
 }
 .icon{
@@ -136,16 +140,54 @@ button,.btn{
     color:rgb(82, 82, 189) ;
 }
 .card{
-    box-shadow: 1px 1px 1px 2px whitesmoke;
+    box-shadow: 1px 1px 1px 2px rgb(50, 5, 133);
     text-align: center;
     margin-top:10px;
     margin-bottom:29px;
     transition: 0.5s;
+    color:rgb(50, 5, 133);
+    text-transform: capitalize;
+}
+.headingcard{
+    text-align: center;
+    text-decoration: silver;
+    margin-top:20px;
+    margin-bottom: 25px;
+    color: rgb(50, 5, 133);
+
+}
+.tod{
+    background-color: rgb(247, 247, 118);
+    border-radius: 100px;
+    border-color:  yellow;
+    border-style: double;
+    text-align: center;
+    text-transform: uppercase;
+}
+.prog{
+    background-color: rgb(146, 213, 240);
+    border-radius: 100px;
+    border-color:  rgb(18, 160, 216);
+    border-style: double;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.don{
+    background-color: rgb(253, 185, 242);
+    border-radius: 100px;
+    border-color:  hotpink;
+    border-style: double;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 .portbt{
     background-color: orange;
     width: 70%;
     height: 40%;
+    margin-left:40px;
+    border-radius: 100px;
 }
 .upperim{
     display: flex;

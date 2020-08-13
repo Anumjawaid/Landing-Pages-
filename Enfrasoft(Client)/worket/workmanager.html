@@ -34,14 +34,16 @@
     </nav>
     <!-- end navbar -->
     <!-- container for project lists -->
-    <div class="container main">
+<div class="container main" id="maincont">
         <div class="heading">
             <h1 class="stmain" >Your Projects</h1>
-            <button class="addnew"><i class="fas fa-plus plus"></i>New Project &nbsp</button>
+            <button class="addnew"  onclick="addproject()"><i class="fas fa-plus plus"></i>New Project &nbsp</button>
+            <a href="./Ccpdf/index.html"><button class="addnew"  onclick=""><i class="fas fa-plus plus"></i>WorkFlow</button></a>
+
 
             <hr class="line">
         </div>
-        <div class="listprojs">
+        <div class="listprojs" id="tables">
             <table class="projtable">
                 
                     <tr>
@@ -64,7 +66,7 @@
     </div>
     <!-- end container projects -->
     <!-- new project container -->
-    <div class="addproj">
+    <div class="addproj" id="projcont">
         <h1>New Project</h1>
         
         
@@ -72,11 +74,12 @@
             <input type="text" class="form-control " >
             <label class="label control-label">Statuses</label>
             <input type="text" class="form-control " >
-            <button class="addnew">&nbspAdd Project &nbsp</button>
+            <button class="addnew" onclick="createproj()">&nbspAdd Project &nbsp</button>
 
 
 
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
 }
 .stmain{
     display: inline-block;
-    margin-right: 600px;
+    margin-right: 450px;
 }
 .line{
     background-color: blueviolet;
@@ -19,10 +19,11 @@
     -webkit-text-stroke: 0px whitesmoke;
     font-size: large;
     border-radius: 150px;
+    margin-left: 100px;
 
 }
 .plus{
-    margin-right:10px;
+    /* margin-right:10px; */
 }
 .listprojs{
     margin-top:30px;

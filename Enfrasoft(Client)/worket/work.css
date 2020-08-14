@@ -47,7 +47,7 @@ th, td {
     border-bottom: 1px solid rgba(82, 82, 189);
   }
   tr:hover{
-      background-color: rgba(82, 82, 189);
+      background-color: rgb(110, 110, 184);
       color: whitesmoke;
   }
 th{
@@ -63,12 +63,15 @@ th{
     margin-left: 450px;
     margin-right: 450px;
     margin-bottom:30px;
-    animation:mymove 5s linear infinite;
     display:none;
+    animation : change 1s infinite; 
 }
-@keyframes mymove {
-    50% {box-shadow: 10px 20px 30px rgb(100, 100, 185);}
-  }
+@keyframes change {
+    50%{
+        box-shadow:1px 1px 2px 2px rgb(57, 57, 148);
+    }
+
+}
 
 .label{
     font-size: 22px;

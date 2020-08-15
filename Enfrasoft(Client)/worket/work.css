@@ -22,18 +22,14 @@
     margin-left: 100px;
 
 }
-.plus{
-    /* margin-right:10px; */
-}
+
 .listprojs{
     margin-top:30px;
     color: rgba(82, 82, 189);
     display:none;
 
 }
-.main{
-    /* display:none; */
-}
+
 .projtable{
     width:100%;
 }

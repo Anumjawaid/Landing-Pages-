@@ -126,25 +126,25 @@ button,.btn{
   margin-left: 10px;
 }
 .todo{
-    box-shadow: 1px 1px 1px 1px rgb(195, 164, 252);
+    /* box-shadow: 1px 1px 1px 1px rgb(195, 164, 252); */
     margin-left: 25px;
 
 }
 
 .inprog{
-    box-shadow: 1px 1px 1px 1px rgb(195, 164, 252);
+    /* box-shadow: 1px 1px 1px 1px rgb(195, 164, 252); */
     margin-left: 25px;
 
 }
 .code{
-    box-shadow: 1px 1px 1px 1px rgb(195, 164, 252);
+    /* box-shadow: 1px 1px 1px 1px rgb(195, 164, 252); */
     margin-left: 25px;
 }
 
 
 .done{
     /* background-color: hotpink; */
-    box-shadow: 1px 2px 1px 1px rgb(195, 164, 252);
+    /* box-shadow: 1px 2px 1px 1px rgb(195, 164, 252); */
     margin-left: 25px;
 }
 .icon{
@@ -152,7 +152,12 @@ button,.btn{
     color:rgb(82, 82, 189) ;
 }
 .card{
-    box-shadow: 1px 1px 1px 1px rgb(195, 164, 252);
+    box-shadow: 1px 0px 0px 0px rgb(195, 164, 252),
+                0px 1px 0px 0px rgb(195, 164, 252),
+                0px 0px 1px 0px rgb(195, 164, 252),
+                0px 0px 0px 1px rgb(195, 164, 252);
+
+
     text-align: center;
     margin-top:10px;
     margin-bottom:29px;

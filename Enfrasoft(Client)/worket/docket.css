@@ -2,3 +2,154 @@
     width:20%;
     margin-top:30px;
 }
+.greetmsg{
+   
+    color:rgb(82, 82, 189);
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#image{
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 14px;
+    width:20%;
+    height:20%;
+    
+}
+.name{
+    margin-top:50px;
+    font-weight: bolder;
+    font-size: 23px;
+}
+.edcard{
+    /* width:10%;
+    height:20%; */
+    border-radius:50px;
+    /* min-height: 0; */
+    height:100px;
+    width:100px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.greetmsgser{
+    text-align:center;
+    color:rgb(82, 82, 189);
+    margin-bottom:25px;
+    margin-top:20px;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.mycard{
+    border-radius:10px;
+    height:130px;
+    width:150px;
+    box-shadow: 0px 1px 0px 0px black,
+                0px 0px 1px 0px black ,
+                0px 0px 0px 1px black ,
+                0px 0px 1px 0px black ;
+
+    text-align:center;
+    border-bottom:1px black;
+    margin-left: 30px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+
+}
+.colcard{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:80px;
+}
+/* .wrapper .sidebar ul li{
+    padding:15px;
+    width: 280px;
+    height:500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border:1px solid grey;
+
+} */
+.wrapper .sidebar ul{
+    height:500px;
+
+}
+.mytextcard{
+    background-color: rgb(82, 82, 189);
+    color:whitesmoke;
+    margin-top:5px;
+    width:50%;
+    margin-left:40px;
+    /* margin-bottom:50px; */
+    /* border-radius: 25px; */
+    /* border-color: black; */
+    /* padding:-3px; */
+
+}
+.penc{
+    color:rgb(82, 82, 189);
+}
+/* .title{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+}
+.imgcard{
+    width:50%;
+    height:100%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 20px;
+
+}
+.textcard{
+    text-align:center;
+    color:rgb(82, 82, 189);
+    font-size:15px;
+} */
+.userimage{
+    display: flex;
+    margin-bottom: 50px;
+    color:rgb(82, 82, 189);
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+.intro{
+    color:rgb(82, 82, 189);
+    margin-bottom:20px;
+    font-weight: lighter;
+    font-size:15px;
+}
+
+.icons{
+    color:rgb(82, 82, 189);
+    margin-bottom: 20px;
+    margin-top:10px;
+    font-size: 32px;
+}
+.pencedi{
+    margin-right:800px;
+    margin-left: 500px;
+}
+.fi,.bo,.fol,.eras{
+    margin-left:29px;
+}
+.palete{
+    box-shadow: 0px 1px 0px 0px rgb(82, 82, 189),
+    0px 0px 1px 0px rgb(82, 82, 189),
+    0px 0px 0px 1px rgb(82, 82, 189),
+    0px 0px 1px 0px rgb(82, 82, 189) ;
+    color:rgb(82, 82, 189);
+    font-size: 32px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    padding:20px;
+}
+.pal{
+    margin-right:10px;
+}

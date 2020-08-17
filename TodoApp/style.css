@@ -1,11 +1,44 @@
 body{
-    background-image: url('styleimage/bg.JPG');
+    background: url('styleimage/bg.JPG');
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+
+
+}
+@keyframes effect{
+to
+    {filter : contrast(50%)/*hue-rotate(90deg);*/
+    }
+    
+    from{filter: contrast(100%)/*hue-rotate(180deg);*/}
+
+}
+.bg{
+    margin: 0;
+    background-image: url('styleimage/bg.JPG');
+    /* animation: rotate 8s; */
+    animation: effect 3s infinite ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
 }
 .navbar{
-    background-image:linear-gradient(rgb(142, 81, 207),rgb(83, 194, 204));
+    background-image:linear-gradient(-45deg,rgb(142, 81, 207),rgb(83, 194, 204),rgb(245, 69, 151));
+
+    animation: gradient 7s ease infinite;
+
 }
 h2{
     color:whitesmoke;
@@ -77,3 +110,15 @@ background-image: url('styleimage/unicorn.png');
 background-repeat: no-repeat;
 /* background-position: 100% .4em; */
 }
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    

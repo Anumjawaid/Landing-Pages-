@@ -24,10 +24,9 @@
             <button id='start' onclick="nameshow()">Start Here</button>
             <!-- start name -->
             <div id='name'>
-              <form>
+              <form id="nameform" onclick="namesave(event)">
             <label  class="label control-label">Mind Telling Your Name</label>
-            <input type="text" class=form-control  placeholder="Name In Here" required>
-            <!-- <button id='start1'type=text onclick="contshow()">Enter</button> -->
+            <input type="text" class=form-control name='name'  placeholder="Name In Here" required>
 
             <!-- start selectedbox -->
             <!-- <div id="cont"> -->
@@ -38,7 +37,7 @@
               </select>
               <!-- end selected -->
             <!-- </div> -->
-            <button id='start2'type=submit onclick="parashow()">Enter</button>
+            <button id='start2'type=submit >Enter</button>
 
 
 </form>

@@ -12,6 +12,90 @@
     /* transform: rotate(02deg); */
 
 }
+.question{
+    font-size:32px;
+    margin-bottom: 30px;
+    box-shadow:5px 2px ,2px,red;
+}
+.answer{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center ; */
+}
+
+.answ1{
+    margin-top:30px;
+    background: rgb(231, 163, 222);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px hotpink,
+    0 0 25px hotpink,
+    0 0 50px hotpink,
+    0 0 200px hotpink          
+}
+.answ2{
+    background: rgb(163, 195, 231);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px rgb(6, 90, 247),
+    0 0 25px rgb(6, 90, 247),
+    0 0 50px rgb(6, 90, 247),
+    0 0 200px rgb(6, 90, 247)          
+}
+.answ3{
+    background: rgb(241, 213, 120);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px rgb(255, 172, 19),
+    0 0 25px rgb(255, 172, 19),
+    0 0 50px rgb(255, 172, 19),
+    0 0 200px rgb(255, 172, 19)        
+}
+.answ4{
+    background: rgb(217, 106, 240);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px rgb(113, 18, 202),
+    0 0 25px rgb(113, 18, 202),
+    0 0 50px rgb(113, 18, 202),
+    0 0 200px rgb(113, 18, 202)         
+}
+.answ1,.answ2,.answ3,.answ4{
+    margin-bottom:50px;
+    /* color:greenyellow; */
+    font-size: 25px;
+    width:50%;
+    font-weight: bold;
+    margin-left:200px;
+    border-radius:100px;
+}
+.answ1:hover,.answ2:hover,.answ3:hover,.answ4:hover{
+    background: rgb(247, 116, 170);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px rgb(202, 18, 177),
+    0 0 25px rgb(202, 18, 177),
+    0 0 50px rgb(202, 18, 177),
+    0 0 200px rgb(202, 18, 177)
+
+}
+.enter{
+    margin-bottom:50px;
+    /* color:greenyellow; */
+    font-size: 25px;
+    width:70%;
+    font-weight: bold;
+    margin-left:120px;
+    border-radius: 100px;
+    background: rgb(245, 151, 151);
+    color:whitesmoke;
+    -webkit-text-stroke: 0.2px greenyellow;
+    box-shadow: 0 0 5px rgb(238, 18, 18),
+    0 0 25px rgb(238, 18, 18),
+    0 0 50px rgb(238, 18, 18),
+    0 0 200px rgb(238, 18, 18)  
+}
 @keyframes rotate{
     from{
         transform: rotate(02deg);

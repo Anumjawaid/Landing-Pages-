@@ -16,3 +16,11 @@ function parashow(){
     document.getElementById('intro').style.display='none'
 
 }
+function namesave(e){
+    e.preventDefault()
+    let name = document.forms['nameform']['name'].value
+    sessionStorage.setItem("name",name);
+    // location.href='main.html'
+
+parashow()
+}

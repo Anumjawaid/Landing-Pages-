@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    background: linear-gradient(-45deg, #7f1bb4,#970890, #108eb4,#7655c4, #d44bb6,#5816af, #1150af); 
+    background-size: 700% 700%;
+    animation: gradient 7s ease infinite;
+    background-attachment: fixed;
+    padding-bottom: 90px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main{
+    margin
+}

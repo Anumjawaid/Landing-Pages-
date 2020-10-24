@@ -3,8 +3,11 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
+}
+#tasks{
+    border-radius: 100px;
+    width:30%;
+    margin-right: 100px;
 }
 @keyframes effect{
 to
@@ -18,13 +21,11 @@ to
     margin: 0;
     background-image: url('styleimage/bg.JPG');
     /* animation: rotate 8s; */
-    animation: effect 3s infinite ;
+    /* animation: effect 3s infinite ; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-
-
-
+    margin-left: 50px;
 }
 @keyframes rotate{
     from {
@@ -35,22 +36,18 @@ to
       }
 }
 .navbar{
-    background-image:linear-gradient(-45deg,rgb(142, 81, 207),rgb(83, 194, 204),rgb(245, 69, 151));
-
+    background-image:linear-gradient(-45deg,rgb(142, 81, 207),rgb(83, 194, 204));
     animation: gradient 7s ease infinite;
-
 }
 h2{
     color:whitesmoke;
     -webkit-text-stroke:1px rgb(142, 81, 207);
-
 }
 button{
     background-image: linear-gradient(rgb(142, 81, 207),rgb(83, 194, 204));
     border-radius: 100px !important;
     color:whitesmoke;
     display: inline-block;
-
     /* display: flex; */
 }
 button:hover{
@@ -77,40 +74,44 @@ a{
 
 }
 @keyframes mymove {
-    50% {box-shadow: 10px 20px 30px rgb(100, 100, 185);}
+    50% {box-shadow: 10px 20px 30px rgb(149, 149, 235);}
   }
 .dbtn{
     border-radius: 100px;
     text-align: right;
 }
-.comp{
+/* .comp{
     margin-top: 10px;
-    /* background-color:transparent; */
     border-radius: 100px;
-    border-color:1px 1px 2px 2px violet solid;
+    border-color:1px 1px 2px 2px rgb(247, 243, 247) solid;
 
-}
-ul{
-    /* background-image: linear-gradient(rgb(83, 194, 204),rgb(142, 81, 207)); */
-   
-
-}
+} */
 
 ul
 {
-list-style-type: none;
-text-align: center;
+/* list-style-type: none; */
+text-align: left;
 background-image: url('styleimage/unicorn.png');
 padding: 20px;
-}
+border-color:10px 10px 5px 5px tomato;
+color:white;
+font-size: large;
 
+/* list-style-image: url('styleimage/unicorn.png'); */
+/* list-style: square inside url('styleimage/unicorn.png'); */
+}
+ul li {
+    padding: 8px 16px;
+    border-bottom: 2px solid rgb(124, 56, 201);
+  }
+  
 li
 {
 background-image: url('styleimage/unicorn.png');
 background-repeat: no-repeat;
 /* background-position: 100% .4em; */
 }
-@keyframes gradient {
+/* @keyframes gradient {
     0% {
         background-position: 0% 50%;
     }
@@ -120,5 +121,5 @@ background-repeat: no-repeat;
     100% {
         background-position: 0% 50%;
     }
-}
+} */
     

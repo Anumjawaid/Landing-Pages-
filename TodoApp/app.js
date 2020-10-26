@@ -1,4 +1,5 @@
 var list=document.getElementById('list')
+// var te=document.getElementById('texts')
 function Addtask(){
     var inp=document.getElementById('tasks')
     //console.log(inp.value)//value of id is printed on console
@@ -7,31 +8,35 @@ function Addtask(){
     li.setAttribute("class",'comp')
     li.appendChild(litext)
     list.appendChild(li)
+
     //deletebtn
+    var div=document.createElement('div')
+    div.setAttribute('class','texts')
     var dbtn=document.createElement('button')
     var detext=document.createTextNode('DELETE')
     dbtn.appendChild(detext)
-    li.appendChild(dbtn)
+    div.appendChild(dbtn)
     dbtn.setAttribute("class","dbtn")
     dbtn.setAttribute('onclick','deltask(this)')
     //editbtn
     var edbtn=document.createElement("button")
     var edtext=document.createTextNode("EDIT")
     edbtn.appendChild(edtext)
-    li.appendChild(edbtn)
-    edbtn.setAttribute("class",'dbtn')
+    div.appendChild(edbtn)
+    edbtn.setAttribute("class",'ebtn')
     edbtn.setAttribute("onclick","edtask(this)")
-
-
-    
+   
+    list.appendChild(div)
     inp.value=''
     // console.log(li)
-
-
 }
 function deltask(param){
-    // console.log(param.parentNode)
-    param.parentNode.remove()
+    console.log(param.parentNode)
+    console.log(param.parentNode.parentNode)
+    console.log(param.parentNode.parentNode.nodeValue)
+
+
+    // param.parentNode.parentNode.remove()
 }
 function DelAll(){
     list.innerHTML=''

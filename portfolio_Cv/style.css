@@ -1,17 +1,33 @@
+  
+html{ 
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Lily Script One';font-size: 22px;
+    overflow:hidden; 
+    scroll-behavior: smooth;
+    /* transition: 1s; */
 
+}
+#proj{
+    text-align: center;
+     margin-top:100px;
+     align-items: center;
 }
 h1{
     color:white;
     -webkit-text-stroke:1px #3CB371;
 }
-.caut{
+.caut,.pr{
     color:white;
-    -webkit-text-stroke:1px #3CB371;
+    -webkit-text-stroke:1px rgb(241, 152, 50);
 } 
+#sk{
+    color:white;
+    -webkit-text-stroke:1px rgb(107, 50, 241);
+}
 #fullpage section h1{
     padding:0;
     margin:0;
@@ -163,33 +179,7 @@ span:before{
     /* padding-top:60%; */
 
 }
-.contbox{
-    width:70%;
-    height:70px;
-    border-radius: 10px;
-    border:3px solid red;
-    margin: 10px auto;
-}
-.skills .name{
-    color:floralwhite;
 
-}
-.bar{
-    box-shadow:0px 0px 10px 4px aquamarine;
-    height:4px;
-    margin:2px 0px;
-    padding:10px 5px;
-    
-    border-radius: 2px;
-    background-color: #fff;
-}
-/* .swiper-container {
-    width: 100%; 
-     padding-top: 50px auto;
-    padding-bottom: 50px;
-    margin-top: 100px;
-  }
- /*  */
  .swiper-slide{
     flex-shrink: 0;
     width:40% !important ;
@@ -202,6 +192,165 @@ span:before{
     text-align: center;
     color: rgb(241, 152, 50);
   } 
+  .mh-skill,.mh-professional-skills{
+      padding-right: 60px;
+      color:white;
+  }
+  .mh-skill ,.mh-professional-skills h3{
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 60px;
+  }
+  .mh-professional-progress li{
+      display:inline-block;
+      margin:0 auto;
+      float:none;
+      width:40%;
+      margin-bottom: 30px;
+      text-align:center;
+  }
+  .mh-progress{
+      margin-bottom: 5px;
+      font:300 1.14285/1 Cinzerl,cursive;
+      color:rgb(76, 44, 255);
+      -webkit-text-stroke: 0.1px white;
+  }
+  .mh-progress-circle{
+    margin-right: 50px;
+  }
+  .mh-progress .progressbar-text{
+      color:inherit !important;
+      box-shadow:whitesmoke 5px 5px solid;
+      
+  }
+  .progress.progress-line{
+      height:10px;
+      margin-right: 60px;
+  }
+  .progress.progress-line .progressbar-text{
+      position: absolute;
+      top:50%;
+      left:100%;
+      width:60px;
+      transform: translateY(-35%);
+      text-align:center;
+  }
+  .mh-progress.mh-progress-circle{
+      display:inline-block;
+      width:100px;
+  }
+  .mh-progress path:nth-child(1){
+      stroke:rgba(0,0,0,0.7);
+    /* stroke: linear-gradient(pink,blue) !important; */
+
+  }
+  .mh-progress path:nth-child(2){
+    stroke:#000cb3 !important;
+}
+.far{
+    /* font-size: large; */
+    margin-top: 100px;
+    font-size: 48px;
+    color: #3CB371;
+    animation: dance 2s  infinite;
+}
+.fas{
+    margin-top: 50px;
+    font-size: 48px;
+    color:rgb(241, 152, 50);;
+    animation: dance 2s  infinite;
+}
+.red{
+    margin-top: 80px;
+    font-size: 48px;
+    color: rgb(252, 38, 38);
+    animation: dance 2s  infinite;
+}
+.blue{
+    margin-top: 80px;
+    font-size: 48px;
+    color: #000cb3;
+    animation: dance 2s  infinite; 
+}
+@keyframes dance{
+    from{
+        font-size: 48px;
+    }
+    to{
+        font-size: 68px;
+    }
+}
+#pro{
+    -webkit-text-stroke: 0.9px #000cb3;
+
+}
+#f{
+    margin-left:500px;
+}
+#tech{
+    margin-bottom: 80px;
+    -webkit-text-stroke: 0.9px #000cb3;
+}
+.candidatos{
+    position:relative;
+    margin-bottom: 15px;
+}
+.candidatos .parcial{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.candidatos .parcial .info{
+    position:relative;
+}
+.candidatos .parcial .info .name{
+    position:absolute;
+    top: 0;
+    left:0;
+    opacity:0.9;
+}
+.candidatos .parcial .info .percentage-num{
+    position:absolute;
+    top: 0;
+    right:0;
+}
+.candidatos .parcial .progressBar{
+    position: relative;
+    width:100%;
+    height:7px;
+    margin:30px 0 2px;
+    border-radius: 10px;
+    background:rgba(0, 0, 0, 0.685) ;
+
+}
+.candidatos .parcial .percentagem{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 7px;
+    border-radius: 10px;
+    /* background-color: #000cb3; */
+    background: linear-gradient(-45deg,#000cb3,blue,pink);
+    transition: 3s all;
+    animation-name: animationProgress;
+
+}
+.percentual{
+    animation-name: animationProgress;
+
+}
+@keyframes animationProgress{
+    from{
+        width:0;
+    }
+
+}
+
+
+
+
+
+
 @keyframes animate{
     0%{
         content:"Student"
@@ -219,3 +368,27 @@ span:before{
        content:'...'
    }
 }
+/*  */
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+@-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+@-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+@-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+@-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }

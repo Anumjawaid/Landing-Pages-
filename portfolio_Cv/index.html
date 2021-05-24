@@ -1,282 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src=https://raw.github.com/peachananr/onepage-scroll/master/jquery.onepage-scroll.min.js></script>
-  <script src=https://raw.github.com/peachananr/onepage-scroll/master/jquery.onepage-scroll.js></script>
-
-    <script src="jquery.fullpage.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js"  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="swipper.min.css">
     <link rel="shortcut icon" type="image/png" href="images/logo-removebg-preview.png">
     <link href='https://fonts.googleapis.com/css?family=Lily Script One' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/ad9c98e7cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
+
 <body>
     <div id=fullpage>
-        <section>
-            <div class="intro">
+        <section id=1>
+            <div class="intro" data-aos="fade-up">
                 <h1>I am Anum Jawaid</h1>
                 <h2>A <span></span></h2>
-                <p class="para">I am a Student Currently Persuing my career in Software Enginerring and aims to become a technology Enterprenuer</p>
-              
+                <p class="para">I am a Student Currently Persuing my career in Software Enginerring and aims to become a
+                    technology Enterprenuer</p>
+                <a href='#2'><i class="far fa-hand-point-down"></i></a>
 
             </div>
         </section>
-        <section>
-              <!-- Flipping Cards  -->
-           <div class="container v-center">
-            <h2 class="header-text"><br>Education<br><br></h2>
-            <div class="row">
-             <div class="col-xs-12 col-sm-6 col-md-4">
-               <div class="team-single">
-                  <div class="content-area">
-                      <div class="side-one">
-                          <div class="card">
-                              <div class="card-body text-center">
-                                  <div class="img-area">
-                                      <img src="http://www.pngall.com/wp-content/uploads/2016/04/Education-Transparent.png" 
-                                      width=70% height=70%>
-                                  </div>
-                                      <h1 class="mat">Matriculation</h1>
-                                      <p class='grade'>A Grade
-                                      </p>
-                                      <h5 class="year">2013-2015</h5>
-                           </div>
-
-                          </div>
-                      </div>
-                      <div class="side-two">
-                        <div class="card">
-                            <div class="card-body text-center mt-4">
-                                <p class="exp"><br><br>"I have done my matric in Computer Science from Bahria Model School Majeed S.R.E in 2016 and acheive flying colors
-                         </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-             </div>
-                      <!--  -->
-                      <div class="col-xs-12 col-sm-6 col-md-4">
+        <section id='2'>
+            <!-- Flipping Cards  -->
+            <div class="container v-center">
+                <h2 class="header-text"><br>Education<br><br></h2>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="team-single">
-                           <div class="content-area">
-                               <div class="side-one">
-                                   <div class="card">
-                                       <div class="card-body text-center">
-                                           <div class="img-area">
-                                               <img src="http://www.pngall.com/wp-content/uploads/2016/04/Education-PNG-HD.png" width=70% height=70%>
-                                           </div>
-                                               <h1 class="mat">Intermediate</h1>
-                                               <p class='grade'>A-1 Grade
-                                               </p>
-                                               <h5 class="year">2015-2017</h5>
-                                    </div>
-         
-                                   </div>
-                               </div>
-                               <div class="side-two">
-                                 <div class="card">
-                                     <div class="card-body text-center mt-4">
-                                         <p class="exp"><br><br>"I have completed my Intermediate in Pre-Engineering from Fazaia Intermediate College with an A-1 Grade in flying colors in the year 2017
-                                  </div>
-                                 </div>
-                             </div>
-                         </div>
-                      </div>
-                      </div>
-                               <!--  -->
-                               <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="team-single">
-                                   <div class="content-area">
-                                       <div class="side-one">
-                                           <div class="card">
-                                               <div class="card-body text-center">
-                                                   <div class="img-area">
-                                                       <img src="http://www.pngall.com/wp-content/uploads/2016/04/Education-PNG-File.png" width=70% height=70%>
-                                                   </div>
-                                                       <h1 class="mat">Bachelors</h1>
-                                                       <p class='grade'>Software Engineering
-                                                       </p>
-                                                       <h5 class="year">2018-2021</h5>
+                            <div class="content-area">
+                                <div class="side-one">
+                                    <div class="card" data-aos="fade-left">
+                                        <div class="card-body text-center">
+                                            <div class="img-area">
+                                                <img src="./images/Education1.png"
+                                                    width=70% height=70%>
                                             </div>
-                 
-                                           </div>
-                                       </div>
-                                       <div class="side-two">
-                                         <div class="card">
-                                             <div class="card-body text-center mt-4">
-                                                 <p class="exp">"<br><br>I am pursuing my Bachehlors from University of Karachi Department of Computer Science (UBIT) in Software Engineering"
-                                          </div>
-                                         </div>
-                                     </div>
-                                 </div>
-                              </div>
-                              </div>
-                                       <!--  -->
+                                            <h1 class="mat">Matriculation</h1>
+
+                                            <h3 class='grade'>Computer Science
+                                            </h3>
+                                            <h5 class='grade'>A Grade
+                                            </h5>
+                                            <h6 class="year">2013-2015</h6>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="side-two">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <p class="exp"><br><br>"I have done my matric in Computer Science from
+                                                Bahria Model School Majeed S.R.E in 2016 and acheive flying colors
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="team-single">
+                            <div class="content-area">
+                                <div class="side-one">
+                                    <div class="card" data-aos="fade-down">
+                                        <div class="card-body text-center">
+                                            <div class="img-area">
+                                                <img src="./images/Education.png"
+                                                    width=70% height=70%>
+                                            </div>
+                                            <h1 class="mat">Intermediate</h1>
+                                            <h3 class='grade'>Pre-Engineering
+                                            </h3>
+                                            <h5 class='grade'>A-1 Grade</h5>
+                                            <h6 class="year">2015-2017</h6>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="side-two">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <p class="exp"><br><br>"I have completed my Intermediate in Pre-Engineering
+                                                from Fazaia Intermediate College with an A-1 Grade in flying colors in
+                                                the year 2017
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="team-single">
+                            <div class="content-area">
+                                <div class="side-one">
+                                    <div class="card" data-aos="fade-left">
+                                        <div class="card-body text-center">
+                                            <div class="img-area">
+                                                <img src="./images/Education2.png"
+                                                    width=70% height=70%>
+                                            </div>
+                                            <h1 class="mat">Bachelors</h1>
+                                            <h3 class='grade'>Software Engineering
+                                            </h3>
+                                            <h5 class='grade' style="color:'white' ">Noteworthy Performer</h5>
+                                            <h6 class="year">2018-2021</h6>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="side-two">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <p class="exp">"<br><br>I am pursuing my Bachehlors from University of
+                                                Karachi Department of Computer Science (UBIT) in Software Engineering"
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--  -->
+
+                </div>
+                <a href='#3' class="v-center"><i class="far fa-hand-point-down red"></i></a>
+            </div>
+
 
 
         </section>
-        <section>
-            <div class="skills"> <h1>Skills</h1>
-            <div class= "container contbox">
-                <div class="html bar">
-                    <h2 class="name">Front End Development</h2>
-                </div>
-            </div>
-            <div class=contbox>
-                <div class="html bar">
-                    <h2 class="name">Website Designing</h2>
-                </div>
-            </div>
-            <div class=contbox>
-                <div class="html bar">
-                    <h2 class="name">Data Analysis </h2>
-                </div>
-            </div>
-            <div class=contbox>
-                <div class="html bar">
-                    <h2 class="name">Python,C#,Artificial Intelligence</h2>
-                </div>
-            </div>
-            <div class=contbox>
-                <div class="html bar">
-                    <h2 class="name">SQl,SQlServer,MSSQL,Ddesktop Application</h2>
-                </div>
-            </div>
-            </div>
-            
-        </section>
-        <!-- <section>
-            <div class="intro">
-                <h1>Services For</h1>
-                <h2>A <span></span></h2>
-              <a href="servpage.html"><button class='servpage'>Click Here</button></a>
+        <section id='3'>
+            <div class="skills">
+                
 
+                <h1 id="sk">Skills</h1>
+
+                <div class="container contbox">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="mh-skill" >
+                                <h3 id='tech'> Technical skills</h3>
+                                <div class="candidatos" >
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">Languages(C#,Python,JS)</div>
+                                            <div class="percentage-num">65%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style='width:65%'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">OOP</div>
+                                            <div class="percentage-num">70%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style='width:70%'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">HTML,CSS,Js,React(Frontend)</div>
+                                            <div class="percentage-num">80%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style='width:80%'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                                <div class="candidatos">
+                                    <div class="parcial">
+                                        <div class="info">
+                                            <div class="name">DataStructure</div>
+                                            <div class="percentage-num">60%</div>
+                                        </div>
+                                        <div class="progressBar">
+                                            <div class="percentagem" style='width:50%'></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  -->
+                               
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mh-professional-skills" >
+                                <h3 id='pro'>Professional skills</h3>
+                                <ul class="mh-professional-progress">
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="60"></div>
+                                        <div class="pr-skill-name">Communication</div>
+
+                                    </li>
+
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="75"></div>
+                                        <div class="pr-skill-name">Creativity</div>
+
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="70"></div>
+                                        <div class="pr-skill-name">Teamworker</div>
+
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="80"></div>
+                                        <div class="pr-skill-name">Problem Solving</div>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <a href='#4' id='f'><i class="far fa-hand-point-down blue"></i></a>
+
+                    </div>
+
+                </div>
             </div>
-        </section> -->
-        <section> 
-            <h1>Projects<br><br></h1>
+
+        </section>
+
+        <section id='4'>
+            <h1 class='pr'>Projects<br><br></h1>
             <h3 class="caut">Hold And Move the Cursor to See Other Projects</h3>
-            <div>
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <!--  -->
-                    <div class="swiper-slide">
-                        <div class="imgBx">
-                          <img src="./images/khanapp.JPG" width='200px' height='300px'>
-                          
+            <div data-aos="fade-down">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--  -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/khanapp.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>Website(React+Firebase)</h3>
+                                <a href="http://stupendous-believebyaj.surge.sh/" target="_blank">
+                                    <h4>KhanaPakana</h4>
+                                </a>
+                            </div>
                         </div>
-                        <div class="details">
-                            <h3><br>Website(React+Firebase)</h3>
-                            <a href="http://stupendous-believebyaj.surge.sh/" target="_blank"><h4>KhanaPakana</h4></a>
+                        <!--  -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/marb.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>WebSite</h3>
+                                <a href="https://marblecompany.surge.sh/" target="_blank">
+                                    <h4>SurfaceSolution</h4>
+                                </a>
+                            </div>
                         </div>
-                      </div>
-                    <!--  -->
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/hhmai.JPG" width='200px' height='300px'>
-                      
+                        <!--  -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/hhmai.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>WebSite</h3>
+                                <a href="https://hiredhand-14ae6.web.app/" target="_blank">
+                                    <h4>HIREDHAND</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 2ndbox -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/dapp.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>Landing Page</h3>
+                                <a href="http://dappstatus.surge.sh/" target="_blank">
+                                    <h4>Dapp Status</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 3rdbox -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/exp.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>WebApp</h3>
+                                <a href="http://expensetracker_aj.surge.sh/" target="_blank">
+                                    <h4>Expense Tracker</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 4thbox -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/webscrape.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>Data Analysis</h3>
+                                <a href="https://github.com/Anumjawaid/data_analysis" target="_blank">
+                                    <h4>DataAnalysis</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 5th box -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/Capture.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>TODO APP</h3>
+                                <a href="http://todoapp_byaj.surge.sh/#" target="_blank">
+                                    <h4>Todo APP</h4>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- 6thbox -->
+                        <div class="swiper-slide">
+                            <div class="imgBx">
+                                <img src="./images/c#.JPG" width='200px' height='300px'>
+
+                            </div>
+                            <div class="details">
+                                <h3><br>Desktop Application with Daatabase</h3>
+                                <a href="https://drive.google.com/file/d/1vNMcrEOFzewCaTdu774XSV6W1jcdpmI4/view?usp=sharing"
+                                    target="_blank">
+                                    <h4>Expense Tracker</h4>
+                                </a>
+                            </div>
+                        </div>
+
                     </div>
-                    <div class="details">
-                        <h3><br>WebSite</h3>
-                        <a href="https://hiredhand-14ae6.web.app/" target="_blank"><h4>HIREDHAND</h4></a>
-                    </div>
-                  </div>
-                  <!-- 2ndbox -->
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/dapp.JPG" width='200px' height='300px'>
-                      
-                    </div>
-                    <div class="details">
-                        <h3><br>Landing Page</h3>
-                        <a href="http://dappstatus.surge.sh/" target="_blank"><h4>Dapp Status</h4></a>
-                    </div>
-                  </div>
-                   <!-- 3rdbox -->
-                   <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/exp.JPG" width='200px' height='300px'>
-                      
-                    </div>
-                    <div class="details">
-                        <h3><br>WebApp</h3>
-                        <a href="http://expensetracker_aj.surge.sh/" target="_blank"><h4>Expense Tracker</h4></a>
-                    </div>
-                  </div>
-                   <!-- 4thbox -->
-                   <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/webscrape.JPG" width='200px' height='300px'>
-                      
-                    </div>
-                    <div class="details">
-                        <h3><br>Data Analysis</h3>
-                        <a href="https://github.com/Anumjawaid/data_analysis" target="_blank"><h4>DataAnalysis</h4></a>
-                    </div>
-                  </div>
-                  <!-- 5th box -->
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/Capture.JPG" width='200px' height='300px'>
-                      
-                    </div>
-                    <div class="details">
-                        <h3><br>TODO APP</h3>
-                        <a href="http://todoapp_byaj.surge.sh/#" target="_blank"><h4>Todo APP</h4></a>
-                    </div>
-                  </div>
-                  <!-- 6thbox -->
-                  <div class="swiper-slide">
-                    <div class="imgBx">
-                      <img src="./images/c#.JPG" width='200px' height='300px'>
-                      
-                    </div>
-                    <div class="details">
-                        <h3><br>Desktop Application with Daatabase</h3>
-                        <a href="https://drive.google.com/file/d/1vNMcrEOFzewCaTdu774XSV6W1jcdpmI4/view?usp=sharing" target="_blank"><h4>Expense Tracker</h4></a>
-                    </div>
-                  </div>
-               
-                  </div>
                 </div>
+                <a href='#1'><i class="fas fa-angle-up"></i></a>
             </div>
-                 <!-- endser --> 
-     <!-- Add Pagination --> 
-    
- <!--  Swiper JS -->
+            <!-- endser -->
+            <!-- Add Pagination -->
+
+            <!--  Swiper JS -->
         </section>
 
     </div>
-    <!-- <script type="text/javascript">
-    FastClick.attach(document.body)
-    //    $('#fullpage').fullpage();
-       $('#fullpage').Fullpage();
 
-    </script> -->
-     <script src="swipper.min.js"></script>
-     <script>
-      var swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows : true,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-        },
-      });
+
+    <script src="circle-progress.js"></script>
+    <script src="swipper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
     </script>
-    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
+
 </html>

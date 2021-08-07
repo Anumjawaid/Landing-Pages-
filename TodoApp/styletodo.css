@@ -1,0 +1,14 @@
+/* wildcard selector */
+*{
+    /* display: flex; */
+
+}
+main{
+    justify-content: center;
+    align-items: center;
+}
+/* element selector */
+header{
+    flex:top;
+
+}

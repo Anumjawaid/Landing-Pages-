@@ -7,7 +7,7 @@ function gettask(){
     console.log(div)
     
    var stat= TocreateElement('input',"status",div,"type",'radio',"chcktask()")
-    var upd=TocreateElement('button',"Update",div,"class",'btn upd','updtask()')
+    var upd=TocreateElement('button',"Update",div,"class",'btn upd','updtask(this)')
     var del=TocreateElement('button',"Delete",div,"class",'btn del',"deltask(this)")
     // upd.setAttribute('onclick',)
     taskslist.push(task.value)
@@ -20,10 +20,17 @@ console.log(taskslist)
 // }
 
 function deltask(param){
-    console.log(param.parentNode)
-    param.parentNode.innerHTML=""
+    console.log(param)
+    // targeting the parent Node thentargeting the element with outer HTML
+    param.parentNode.outerHTML=""
 
 
+}
+function updtask(param){
+    var val=prompt("Enter Updated Value")
+    console.log(param.parentNode.firstChild)
+    console.log(param.parentNode.firstChild.nodeValue)
+    param.parentNode.firstChild.nodeValue=val
 }
 
 function TocreateElement(elementname,elementtext,where,attrname,attr,funcname){

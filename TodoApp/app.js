@@ -6,6 +6,8 @@ function Addtask(){
     var li = document.createElement('li')
     var litext=document.createTextNode(inp.value)
     li.setAttribute("class",'comp')
+    li.setAttribute("onclick",'comp()')
+
     li.appendChild(litext)
     list.appendChild(li)
 
@@ -29,6 +31,9 @@ function Addtask(){
     list.appendChild(div)
     inp.value=''
     // console.log(li)
+}
+function comp(){
+    console.log("byj")
 }
 function deltask(param){
     console.log(param.parentNode)
